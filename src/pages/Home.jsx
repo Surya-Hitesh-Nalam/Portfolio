@@ -1,3 +1,8 @@
+import { AboutMe } from "../components/AboutMe"
+import { HeroSection } from "../components/HeroSection"
+import { Navbar } from "../components/Navbar"
+import { ProjectSection } from "../components/ProjectsSection"
+import { SkillsSection } from "../components/SkillsSection"
 import { StarBackground } from "../components/StarBackground"
 import { ThemeToogle } from "../components/ThemeToogle"
 
@@ -12,10 +17,15 @@ export const Home = ()=>{
         <StarBackground />
         {/* Navbar */}
 
+        <Navbar />
 
         {/* Main Content */}
-
-
+        <main>
+            <HeroSection />
+            <AboutMe />
+            <SkillsSection/>
+            <ProjectSection />
+        </main>
 
         {/*Router */}
     </div>
