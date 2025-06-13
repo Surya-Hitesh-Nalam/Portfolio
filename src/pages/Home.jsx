@@ -28,9 +28,10 @@ export const Home = ()=>{
             <SkillsSection/>
             <ProjectSection />
             <ContactSection />
-            <Footer />
+            
         </main>
 
-        {/*Router */}
+        {/*Footer */}
+        <Footer />
     </div>
 }
