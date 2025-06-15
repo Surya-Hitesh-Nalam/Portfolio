@@ -10,7 +10,7 @@
 
   --color-card:hsl(var(--card));
 
-  --animate-float: float 6s ease-in-out infinite;
+  --animate-float: float 4s ease-in-out infinite;
   --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
   --animate-fade-in: fade-in 0.7s ease-out forwards;
   --animate-fade-in-delay-1: fade-in 0.7s ease-out 0.2s forwards;
@@ -25,7 +25,7 @@
       transform:translateY(0);
     }
     50%{
-      transform: translateY(-10px);
+      transform: translateY(-30px);
     }
   }
   @keyframes pulse-subtle {
@@ -139,7 +139,7 @@
   border: 1px solid transparent;
 }
 
-@utility csomic-button{
+@utility cosmic-button{
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
 }
 
@@ -152,6 +152,11 @@
   @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
   box-shadow: 0 0 10px 5px rgba(255,255,255,0.3) 
 }
+
+@utility animate-float {
+  animation: var(--animate-float);
+}
+
 
 #root{
   max-width:100%;
