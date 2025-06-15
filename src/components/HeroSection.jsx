@@ -13,18 +13,23 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl opacity-0 animate-fade-in-delay-3">
-            I am a software developer
+            I am an aspiring software developer
           </p>
 
-          <div className="opacity-0 animate-fade-in-delay-4">
+          <div className="animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">View My Work</a>
           </div>
         </div>
 
         {/* Image Section - Right */}
-        <div className="hidden md:block animate-floating">
-          <img src="/Group.png" alt="Hero Graphic" className="w-[450px] h-auto animate-float" />
-        </div>
+       <div className="block animate-floating">
+  <img
+    src="/Group.png"
+    alt="Hero Graphic"
+    className="w-[300px] md:w-[450px] h-auto mx-auto animate-float"
+  />
+</div>
+
       </div>
 
       {/* Scroll Indicator - Center Bottom */}

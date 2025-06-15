@@ -53,13 +53,13 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
-                  <h4 className="font-medium"> Email</h4>
+                <div className=" flex flex-col items-start">
+                  <h4 className="font-medium">Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:suryanalam1234@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    suryanalam1234@gmail.com
                   </a>
                 </div>
               </div>
@@ -67,13 +67,13 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
-                  <h4 className="font-medium"> Phone</h4>
+                <div className=" flex flex-col items-start">
+                  <h4 className="font-medium">Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+919121589878"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    +91 9121589878
                   </a>
                 </div>
               </div>
@@ -81,10 +81,10 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
-                  <h4 className="font-medium"> Location</h4>
+                <div className=" flex flex-col items-start">
+                  <h4 className="font-medium">Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                    Vijayawada, Andhra Pardesh , India
                   </a>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Pedro Machado..."
+                  placeholder="Your Name"
                 />
               </div>
 

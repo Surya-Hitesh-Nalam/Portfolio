@@ -11,12 +11,12 @@ export const AboutMe = () =>{
             <div className="grid gird-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                     <h3 className="text-2xl font-semibold">Passionate Web Developer & AI Developer</h3>
-                    <p className="text-muted-foreground">I am crated many projects Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt earum voluptate at eligendi, architecto in!</p>
+                    <p className="text-muted-foreground">I'm Surya Hitesh, a full-stack developer specializing in building modern web applications using the MERN stack</p>
+                    <p> I enjoy solving real-world problems, exploring new challenges, and continuously sharpening my problem-solving skills</p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                        <a href="#contact" className="cosmic-button">Get In Touch</a>
-                        <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Get In Touch</a>
+                        <a href="" className="cosmic-button">Resume</a>
+                        <a href="#contact" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Get In Touch</a>
                     </div>
                 </div>
 
@@ -39,7 +39,7 @@ export const AboutMe = () =>{
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">AI</h4>
-                                <p className="text-muted-foreground">An Ai Enthusiatic integrating ai into web apps</p>
+                                <p className="text-muted-foreground">An AI Enthusiatic integrating AI into web apps</p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export const AboutMe = () =>{
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">DSA</h4>
-                                <p className="text-muted-foreground">Paasonate in DSA problems </p>
+                                <p className="text-muted-foreground">Passonate in Data Structures And Alogithms</p>
                             </div>
                         </div>
                     </div>

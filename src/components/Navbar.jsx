@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { cn } from "../lib/utils"
-import { X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navItems = [
     {name:"Home",href: "#hero"},
@@ -13,15 +13,15 @@ const navItems = [
 export const Navbar = () =>{
     const [isScrolled,setIsScrolled] = useState(false);
     const [isMenuOpen,setIsMenuOpen] = useState(true);
+useEffect(() => {
+  const handleScroll = () => {
+    setIsScrolled(window.scrollY > 10); // ✅ correct scroll position
+  };
 
-    useEffect(()=>{
-        const handleScroll = () =>{
-            setIsScrolled(window.screenY>10)
-        }
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll); // ✅ properly removed
+}, []);
 
-        window.addEventListener("scroll",handleScroll)
-        return () => window.addEventListener("scroll",handleScroll)
-    },[])
     return <nav className={cn("fixed w-full z-40 transition-all duration-300",isScrolled ? "py-3 bg-background/80 backdrop-blue-md shadow-xs": "py-5" )}>
         <div className="container flex items-center justify-between">
             <a className="text-xl font-bold text-primary flex items-center" href="#hero">

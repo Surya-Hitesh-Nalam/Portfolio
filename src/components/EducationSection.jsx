@@ -68,27 +68,31 @@ export default function EducationSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="relative mb-20"
+              className="relative mb-24"
             >
-              {/* Dot */}
-              <div className="absolute top-[-20px] md:top-0 left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-full bg-primary flex items-center justify-center z-10">
-                {item.icon}
-                <span className="absolute w-10 h-10 bg-primary/60 rounded-full animate-pulse-subtle"></span>
+              {/* Floating Dot with Pulse */}
+              <div className="absolute top-[-20px] md:top-0 left-1/2 transform -translate-x-1/2 w-14 h-14 z-10 flex items-center justify-center">
+                <div className="relative">
+                  <div className="absolute inset-0 animate-ping rounded-full bg-primary opacity-70"></div>
+                  <div className="relative z-10 w-14 h-14 rounded-full bg-primary text-white flex items-center justify-center shadow-lg">
+                    {item.icon}
+                  </div>
+                </div>
               </div>
 
               {/* Year Badge */}
-              <div className={`hidden md:flex absolute top-0 left-1/2 transform mt-16 ${index % 2 !== 0 ? "left-[25.5rem]" : ""} bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-medium z-10`}>
+              <div className={`hidden md:flex absolute top-0 left-1/2 transform mt-20 ${index % 2 !== 0 ? "left-[25.5rem]" : ""} bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-medium z-10`}>
                 {item.period}
               </div>
 
               {/* Card */}
-              <div className={`mt-24 grid grid-cols-1 md:grid-cols-2 gap-6 ${index % 2 === 0 ? "md:grid-flow-dense" : ""}`}>
+              <div className={`mt-28 grid grid-cols-1 md:grid-cols-2 gap-6 ${index % 2 === 0 ? "md:grid-flow-dense" : ""}`}>
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   transition={{ type: "spring", stiffness: 300 }}
                   className={`${index % 2 === 0 ? "md:col-start-1" : "md:col-start-2"}`}
                 >
-                  <div className="overflow-hidden gradient-border p-6 shadow-xl transition-all duration-300">
+                  <div className="p-6 shadow-xl transition-all duration-300 border-2 border-primary rounded-xl bg-background/50 backdrop-blur-sm">
                     <div className="flex items-center gap-3 mb-4">
                       <div className={`rounded-full p-2 bg-gradient-to-r ${item.color} text-white`}>
                         {item.icon}
