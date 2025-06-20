@@ -23,13 +23,14 @@ export const HeroSection = () => {
     </div>
 
     {/* Image Section - Bottom on mobile */}
-    <div className="animate-floating">
-      <img
-        src="/Group.png"
-        alt="Hero Graphic"
-        className="w-[300px] md:w-[450px] h-auto mx-auto animate-float"
-      />
-    </div>
+    <div className="animate-float motion-safe:animate-float">
+  <img
+    src="/Group.png"
+    alt="Hero Graphic"
+    className="w-[300px] md:w-[450px] h-auto mx-auto"
+  />
+</div>
+
   </div>
 
   {/* Scroll Indicator */}
