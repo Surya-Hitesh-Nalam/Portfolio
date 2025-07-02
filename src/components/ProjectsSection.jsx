@@ -13,22 +13,23 @@ const projects = [
   },
   {
     id: 2,
-    title: "SaaS Landing Page",
-    description: "A clean and responsive SaaS landing page design.",
-    image: "/projects/project1.png",
-    tags: ["React", "Tailwind", "Supabase"],
+    title: "AI Email Template",
+    description: "An AI-generated email template ",
+    image: "/projects/ai-email.png",
+    tags: ["Next.js", "Tailwind", "Firebase"],
     demourl: "#",
     githuburl: "#",
   },
   {
     id: 3,
-    title: "SaaS Landing Page",
-    description: "A clean and responsive SaaS landing page design.",
-    image: "/projects/project1.png",
-    tags: ["React", "Tailwind", "Supabase"],
+    title: "Quiz Master",
+    description: "Quiz Master is a full-stack quiz application that allows users to create, take, and manage quizzes. It features user authentication, real-time score tracking, and an intuitive interface.",
+    image: "/projects/quiz.png",
+    tags: ["React", "Express", "MongoDB"],
     demourl: "#",
     githuburl: "#",
   },
+  
 ];
 
 export const ProjectSection = () => {
