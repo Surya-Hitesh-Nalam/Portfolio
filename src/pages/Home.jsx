@@ -8,13 +8,13 @@ import { Navbar } from "../components/Navbar"
 import { ProjectSection } from "../components/ProjectsSection"
 import { SkillsSection } from "../components/SkillsSection"
 import { StarBackground } from "../components/StarBackground"
-import { ThemeToogle } from "../components/ThemeToogle"
+import {ThemeToogle} from "../components/ThemeToogle"
 
 export const Home = ()=>{
     return <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
         {/*Theme Toogle */}
         
-        <ThemeToogle/>
+          <ThemeToogle/>  
 
         {/* Background Effect */}
 
