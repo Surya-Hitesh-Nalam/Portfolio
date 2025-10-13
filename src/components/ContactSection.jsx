@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {
   Instagram,
   Linkedin,
@@ -5,9 +6,8 @@ import {
   MapPin,
   Phone,
   Send,
-  Twitch,
-  Twitter,
 } from "lucide-react";
+import { Github, Code2 } from 'lucide-react'
 import { cn } from "@/lib/utils";
 import { useState, useRef } from "react";
 import { useToast } from "../hooks/use-toast";
@@ -108,22 +108,19 @@ export const ContactSection = () => {
             </div>
 
             <div className="pt-8">
-              <h4 className="font-medium mb-4">Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
-                  <Linkedin />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitter />
-                </a>
-                <a href="#" target="_blank">
-                  <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
-                </a>
-              </div>
-            </div>
+  <h4 className="font-medium mb-4">Connect With Me</h4>
+  <div className="flex space-x-4 justify-center">
+    <a href="https://www.linkedin.com/in/v-s-surya-hitesh-nalam" target="_blank" rel="noopener noreferrer">
+      <Linkedin />
+    </a>
+    <a href="https://github.com/Surya-Hitesh-Nalam" target="_blank" rel="noopener noreferrer">
+      <Github />
+    </a>
+    <a href="https://leetcode.com/u/suryahitesh10/" target="_blank" rel="noopener noreferrer">
+      <Code2 />
+    </a>
+  </div>
+</div>
           </div>
 
           <div className="bg-card p-8 rounded-lg shadow-xs">

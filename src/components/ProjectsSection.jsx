@@ -3,6 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Job Hive",
+    description: "Built a college placement and training cell platform where admins can post jobs, manage recruitment rounds, and filter candidates. Integrated real-time email notifications for OTPs, job updates, application status, and round results.",
+    image: "/projects/Hive.png",
+    tags: ["React", "Express", "postgreSQL", "Prisma","Tailwind"],
+    demourl: "https://jobhives.vercel.app/",
+    githuburl: "https://github.com/Surya-Hitesh-Nalam/job_backend",
+  },
+  {
+    id: 2,
     title: "Shuriken-AI Powered LMS Portal",
     description:
       "Shuriken is an AI-powered LMS that personalizes learning through adaptive content, intelligent assessments, and mock interviews. It tracks student progress and provides real-time performance analytics.",
@@ -12,7 +21,7 @@ const projects = [
     githuburl: "https://github.com/Surya-Hitesh-Nalam/Shuriken-LMS",
   },
   {
-    id: 2,
+    id: 3,
     title: "AI Email Template",
     description: "An AI-generated email template ",
     image: "/projects/ai-email.png",
@@ -21,7 +30,7 @@ const projects = [
     githuburl: "#",
   },
   {
-    id: 3,
+    id: 4,
     title: "Quiz Master",
     description: "Quiz Master is a full-stack quiz application that allows users to create, take, and manage quizzes. It features user authentication, real-time score tracking, and an intuitive interface.",
     image: "/projects/quiz.png",
