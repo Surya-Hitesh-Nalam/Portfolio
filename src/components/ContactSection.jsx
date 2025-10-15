@@ -108,19 +108,19 @@ export const ContactSection = () => {
             </div>
 
             <div className="pt-8">
-  <h4 className="font-medium mb-4">Connect With Me</h4>
-  <div className="flex space-x-4 justify-center">
-    <a href="https://www.linkedin.com/in/v-s-surya-hitesh-nalam" target="_blank" rel="noopener noreferrer">
-      <Linkedin />
-    </a>
-    <a href="https://github.com/Surya-Hitesh-Nalam" target="_blank" rel="noopener noreferrer">
-      <Github />
-    </a>
-    <a href="https://leetcode.com/u/suryahitesh10/" target="_blank" rel="noopener noreferrer">
-      <Code2 />
-    </a>
-  </div>
-</div>
+              <h4 className="font-medium mb-4">Connect With Me</h4>
+              <div className="flex space-x-4 justify-center">
+                <a href="https://www.linkedin.com/in/v-s-surya-hitesh-nalam" target="_blank" rel="noopener noreferrer">
+                  <Linkedin />
+                </a>
+                <a href="https://github.com/Surya-Hitesh-Nalam" target="_blank" rel="noopener noreferrer">
+                  <Github />
+                </a>
+                <a href="https://leetcode.com/u/suryahitesh10/" target="_blank" rel="noopener noreferrer">
+                  <Code2 />
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className="bg-card p-8 rounded-lg shadow-xs">
@@ -163,6 +163,7 @@ export const ContactSection = () => {
                   id="message"
                   name="message"
                   required
+                  rows="4"
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
                   placeholder="Hello, I'd like to talk about..."
                 />
@@ -171,10 +172,10 @@ export const ContactSection = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className={cn("cosmic-button w-full flex items-center justify-center gap-2")}
+                className={cn("cosmic-button w-full inline-flex items-center justify-center gap-2")}
               >
-                {isSubmitting ? "Sending..." : "Send Message"}
-                <Send size={16} />
+                <span>{isSubmitting ? "Sending..." : "Send Message"}</span>
+                <Send className="w-4 h-4" />
               </button>
             </form>
           </div>
