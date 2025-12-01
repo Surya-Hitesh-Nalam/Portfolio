@@ -31,7 +31,7 @@ export const AboutMe = () => {
                         <p className="text-muted-foreground">I'm Surya Hitesh, a full-stack developer specializing in building modern web applications using the MERN stack</p>
                         <p className="text-gray-300">I enjoy solving real-world problems, exploring new challenges, and continuously sharpening my problem-solving skills</p>
 
-                        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start">
+                        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center ">
                             <a href="" className="cosmic-button text-center">Resume</a>
                             <a href="#contact" className="px-6 py-3 rounded-full border-2 border-purple-500 text-purple-400 hover:bg-purple-500/10 transition-all duration-300 text-center">Get In Touch</a>
                         </div>

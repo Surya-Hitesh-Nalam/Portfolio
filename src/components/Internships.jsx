@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 
 const internships = [
   {
-    role: "Python Intern",
-    company: "Coding Raja Technologies",
-    duration: "May 2024 – July 2024",
+    role: "SDI Intern",
+    company: "Being Zero Pvt Ltd",
+    duration: "Nov 2025 – Present",
     description:
       "Developed RESTful APIs, handled authentication, optimized MongoDB queries and contributed to production-grade Node.js services.",
-    tech: ["Python", "Basics","Data Structures"],
+    tech: ["Java", "MERN","Data Structures"],
   },
   {
     role: "Full Stack Intern",
-    company: "Navodita",
+    company: "Infosys Springboard",
     duration: "Jan 2024 – Apr 2024",
     description:
       "Built and deployed full-stack features using React, Tailwind and Express. Created dashboards, authentication, and admin panel UI.",
