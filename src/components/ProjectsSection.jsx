@@ -22,6 +22,15 @@ const projects = [
   },
   {
     id: 3,
+    title: "InternOS",
+    description: "AI powered Job simulation game that provides real world experience of working in a tech company . The chaos in the codebase , the pressure of deadlines and the thrill of solving complex problems - all in a fun and engaging way.",
+    image: "/projects/InternOS.png",
+    tags: ["React.js", "Express.js", "Tailwind", "MangoDB", "GeminiAPI"],
+    demourl: "https://internos-client.onrender.com/",
+    githuburl: "https://github.com/Surya-Hitesh-Nalam/InternOS",
+  },
+  {
+    id: 4,
     title: "AI Email Template",
     description: "An AI-generated email templateAI-Generated Email Template – Built an AI tool that creates personalized and professional email drafts using NLP to understand user intent and tone. ",
     image: "/projects/ai-email.png",
@@ -30,7 +39,7 @@ const projects = [
     githuburl: "#",
   },
   {
-    id: 4,
+    id: 5,
     title: "Quiz Master",
     description: "Quiz Master is a full-stack quiz application that allows users to create, take, and manage quizzes. It features user authentication, real-time score tracking, and an intuitive interface.",
     image: "/projects/quiz.png",
@@ -39,13 +48,22 @@ const projects = [
     githuburl: "#",
   },
   {
-    id: 5,
+    id: 6,
     title: "AI PDF Notes",
     description: " AI-Powered PDF Notes – Developed a web app that extracts key points from PDFs using NLP, allowing users to upload documents and receive concise summaries for efficient studying.",
     image: "/projects/aipdfnotes.png",
     tags: ["Next.js", "Convex", "Tailwind", "NLP"],
     demourl: "#",
     githuburl: "#",
+  },
+   {
+    id: 7,
+    title: "careOps",
+    description: "AI Powered Bookings, CRM, inbox, forms, inventory, analytics, and automation — everything a service business needs, unified in one beautiful platform. ",
+    image: "/projects/careOps.png",
+    tags: ["React.js", "Express.js", "Tailwind", "GeminiAPI","PostgreSQL","PrismaORM"],
+    demourl: "https://careops-eoa7.onrender.com/",
+    githuburl: "https://github.com/Surya-Hitesh-Nalam/careOps",
   },
   
 ];
