@@ -65,6 +65,15 @@ const projects = [
     demourl: "https://careops-eoa7.onrender.com/",
     githuburl: "https://github.com/Surya-Hitesh-Nalam/careOps",
   },
+  {
+    id: 8,
+    title: "PollStream",
+    description: "PollStream is a real-time polling application that allows users to create and participate in live polls. It features instant result updates, user authentication, and an interactive interface for engaging polling experiences.",
+    image: "/projects/pollstream.png",
+    tags: ["React.js", "Express.js", "Tailwind", "SocketIO","Redis","PostgreSQL","PrismaORM"],
+    demourl: "https://poll-client-gv5v.onrender.com/",
+    githuburl: "https://github.com/Surya-Hitesh-Nalam/Polling",
+  },
   
 ];
 
