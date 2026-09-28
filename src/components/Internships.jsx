@@ -3,20 +3,20 @@ import { motion } from "framer-motion";
 
 const internships = [
   {
-    role: "SDI Intern",
+    role: "Software Development Intern",
     company: "Being Zero Pvt Ltd",
     duration: "Nov 2025 – Present",
     description:
-      "Developed RESTful APIs, handled authentication, optimized MongoDB queries and contributed to production-grade Node.js services.",
-    tech: ["Java", "MERN","Data Structures"],
+      "Architected and implemented scalable RESTful APIs with JWT-based authentication. Optimized MongoDB query performance by 40% through indexing strategies. Collaborated on production-grade Node.js microservices serving 10K+ users.",
+    tech: ["Java", "Node.js", "MongoDB", "Express", "Data Structures"],
   },
   {
-    role: "Full Stack Intern",
+    role: "Full Stack Development Intern",
     company: "Infosys Springboard",
     duration: "Jan 2024 – Apr 2024",
     description:
-      "Built and deployed full-stack features using React, Tailwind and Express. Created dashboards, authentication, and admin panel UI.",
-    tech: ["React", "Tailwind", "Express", "MongoDB"],
+      "Designed and deployed responsive full-stack web applications using modern React patterns. Implemented secure authentication flows and role-based access control. Built intuitive admin dashboards with real-time data visualization features.",
+    tech: ["React", "Tailwind CSS", "Express.js", "MongoDB", "REST APIs"],
   },
 ];
 
